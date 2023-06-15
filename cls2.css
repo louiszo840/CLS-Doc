@@ -221,7 +221,15 @@ margin: 1px 2rem;
     font-size:4.5rem ;
     margin: 2rem ;
 }
-
+.about-content .range.range-1{
+    width: 30%;
+}
+.about-content .range.range-2{
+    width: 10%;
+}
+.about-content .range.range-3{
+    width: 18%;
+}
 /* updates2 */
 .about-content{
     border: solid 1px #0ef;
@@ -459,7 +467,7 @@ margin-bottom: 5rem;
          padding: 2rem 3%;
     }
 }
-@media (max-width:768px){
+@media (max-width:868px){
     #menu-icon{
 display: block;
     }
@@ -515,6 +523,38 @@ width: 10%;
     .porfolio-container{
         grid-template-columns: repeat(2,1fr);
     }
+     /* update */
+.row1,.row,.col-61{
+    width: 100%;
+    
+}
+.about-content .range.range-1{
+    width: 80%;
+}
+.about-content .range.range-2{
+    width: 25%;
+}
+.about-content .range.range-3{
+    width: 50%;
+}
+    .about .col-6 h3,.about .col-6 h4,.about .col-6 p{
+        margin:2rem 0rem 0px 2rem;
+        line-height: 3rem;
+        font-size: 1.6rem;
+        /* margin: 2rem 0 3rem; */
+    }
+    .about .col-6 p{
+        letter-spacing: .5px;
+        line-height: 2rem;
+    }
+    .about .row h4{
+    margin: 1px 2rem;
+    }
+    .about-content{
+        width: 100%;
+        border:solid 1px #0ef
+    }
+    /* update */
 }
 @media (max-width:617px){
 .porfolio-container {
@@ -533,6 +573,9 @@ width: 10%;
     .home-img,.about-img img{
         width: 90vw;
     }
+    .col-61{
+    width: 100%;
+}
  .footer {
     flex-direction: column-reverse;
  }
