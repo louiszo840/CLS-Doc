@@ -129,7 +129,7 @@ span{
     color: var(--second-bg-color);
     box-shadow: 0 0 1rem var(--main-color);
 }
-button,.btn{
+button, .btn{
     display: inline-block;
     padding: 1rem 2.8rem;
     background: var(--main-color);
