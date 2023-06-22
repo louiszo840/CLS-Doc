@@ -129,7 +129,7 @@ span{
     color: var(--second-bg-color);
     box-shadow: 0 0 1rem var(--main-color);
 }
-.btn{
+button,.btn{
     display: inline-block;
     padding: 1rem 2.8rem;
     background: var(--main-color);
@@ -140,6 +140,7 @@ span{
     letter-spacing: .1rem;
     font-weight: 600;
     transition: .5s ease;
+    margin-top: 20px;
 }
 .btn:hover{
     box-shadow: none;
