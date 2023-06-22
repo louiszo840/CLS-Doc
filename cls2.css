@@ -93,7 +93,7 @@ span{
     width: 25vw;
     height: 100%;
     filter: brightness(50%);
-    border-radius: 30px 0px;
+    border-radius: 30px 30px;
 }
 .home-content h3{
     font-size: 3.2rem;
@@ -129,7 +129,7 @@ span{
     color: var(--second-bg-color);
     box-shadow: 0 0 1rem var(--main-color);
 }
-button, .btn{
+button,.btn{
     display: inline-block;
     padding: 1rem 2.8rem;
     background: var(--main-color);
@@ -524,7 +524,7 @@ width: 10%;
     .porfolio-container{
         grid-template-columns: repeat(2,1fr);
     }
-     /* update */
+    /* update */
 .row1,.row,.col-61{
     width: 100%;
     
@@ -556,6 +556,7 @@ width: 10%;
         border:solid 1px #0ef
     }
     /* update */
+    
 }
 @media (max-width:617px){
 .porfolio-container {
@@ -570,16 +571,15 @@ width: 10%;
         width: 100%;
     }
 }
-@media (max-width:365px){
+@media (max-width:390px){
+
     .home-img,.about-img img{
         width: 90vw;
     }
-    .col-61{
-    width: 100%;
-}
  .footer {
     flex-direction: column-reverse;
  }
+
  .footer p{
     text-align: center;
     margin-top: 2rem;
